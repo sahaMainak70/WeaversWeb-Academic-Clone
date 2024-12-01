@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Sofia Pro Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Sofia Pro Regular"),
+    url("../sofia-pro-webfont/Sofia Pro Regular Az.woff") format("woff");
+}
+
+:root {
+  --ff-sofiaPro: "Sofia Pro Regular";
+
+  --white: #fff;
+  --black: #000;
+  --blue: #4162f2;
+  --a-hover: #d49ba3;
+
+  --common-transition: all 0.3s ease;
+}
