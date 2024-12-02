@@ -1,5 +1,5 @@
 .video-container {
-  height: 707px;
+  height: 657px;
   width: 100%;
   position: relative;
   display: flex;
@@ -22,4 +22,89 @@
   top: 0;
   left: 0;
   z-index: 2;
+}
+
+.video-content {
+  height: 200px;
+  max-width: 1200px;
+  position: absolute;
+  top: 57%;
+  z-index: 3;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.video-content-left {
+  width: 58.5%;
+}
+
+.video-content h1 {
+  font-size: 50px;
+  line-height: 1;
+  color: var(--white);
+  font-weight: 800;
+}
+
+.video-content h1 strong {
+  font-weight: 800;
+  display: block;
+}
+
+.video-content-right {
+  margin-top: 20px;
+}
+
+.video-content-right p {
+  max-width: 490px;
+  font-size: 20px;
+  color: var(--white);
+  padding-bottom: 30px;
+  line-height: 1.5;
+}
+
+.video-btn a {
+  padding: 18px 50px !important;
+}
+
+.video-btns a {
+  position: absolute;
+  border-radius: 0 0 10px 10px;
+  padding: 15px 20px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+  border: 3px solid var(--white);
+  font-weight: 800;
+  font-size: 18px;
+  border-top: 0;
+  text-transform: uppercase;
+  background-color: var(--blue);
+  z-index: 4;
+  transform: rotate(90deg);
+  right: 0;
+  transition: var(--common-transition);
+}
+
+.video-offers a {
+  background-color: var(--red);
+  right: -49px;
+  top: 238px;
+}
+
+.video-updates a {
+  right: -86px;
+  top: 442px;
+}
+
+.video-offers a:hover {
+  background-color: var(--white);
+  color: var(--red);
+  border: 3px solid var(--red);
+  border-top: 0;
+}
+
+.video-updates a:hover {
+  background-color: var(--white);
+  color: var(--blue);
+  border: 3px solid var(--blue);
+  border-top: 0;
 }
